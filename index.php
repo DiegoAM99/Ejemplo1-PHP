@@ -9,7 +9,9 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-4"></div>
+                <div class="col-4">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                </div>
                 <div class="col-4">
                     <input name="usuario_nombre" type="text" placeholder="Usuario">
                 </div>
