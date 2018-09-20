@@ -13,7 +13,7 @@
                     <button id= "boton1" class="btn btn-primary">Primary</button>
                 </div>
                 <div class="col-4">
-                    <input name="usuario_nombre" type="text" placeholder="Usuario">
+                    <input id="nombre" name="usuario_nombre" type="text" placeholder="Usuario">
                 </div>
                 <div class="col-4"></div>
             </div>
@@ -26,7 +26,9 @@
     
     <script>
         $('#boton1').click(function(){
-            
+            console.log("aqui si que llega");
+            $('#nombre').val("Why you running?");
+            $('input [name=usuario_nombre]').val("Why you running?22");
         });
     </script>
 </html>
