@@ -13,7 +13,7 @@
                     <button id= "boton1" class="btn btn-primary">Primary</button>
                 </div>
                 <div class="col-4">
-                    <input id="nombre" name="usuario_nombre" type="text" placeholder="Usuario">
+                    <input id="cajaNombre" name="usuario_nombre" type="text" placeholder="Usuario">
                 </div>
                 <div class="col-4"></div>
             </div>
@@ -25,10 +25,14 @@
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
     
     <script>
+        // document ready se ejecuta cuando toda la página se ha cargado correctamente
+        $(document).ready(function (){
+            $('#cajaNombre').hide();
+        });
+        
         $('#boton1').click(function(){
             console.log("aqui si que llega");
-            $('#nombre').val("Why you running?");
-            $('input [name=usuario_nombre]').val("Why you running?22");
+            $('#cajaNombre').show(200);
         });
     </script>
 </html>
