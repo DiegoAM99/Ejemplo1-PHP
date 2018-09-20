@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button id= "boton1" class="btn btn-primary">Primary</button>
                 </div>
                 <div class="col-4">
                     <input name="usuario_nombre" type="text" placeholder="Usuario">
@@ -23,4 +23,10 @@
         ?>
     </body>
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    
+    <script>
+        $('#boton1').click(function(){
+            
+        });
+    </script>
 </html>
