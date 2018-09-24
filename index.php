@@ -27,8 +27,7 @@
                     <button id= "boton1" class="btn btn-primary btn-block" type="submit">Primary</button>
                     <br/><br/>
                     <p>
-                        Year (yyyy-mm-dd):
-                        <input  class="form-control" data-validation="date" data-validation-format="yyyy-mm-dd">
+                        <input class="form-control" data-validation="date" data-validation-format="yyyy-mm-dd" placeholder="Year (yyyy-mm-dd):">
                     </p>
                     </form>
                 </div>
