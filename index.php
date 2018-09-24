@@ -26,9 +26,15 @@
                     <br/>
                     <button id= "boton1" class="btn btn-primary btn-block" type="submit">Primary</button>
                     <br/><br/>
+                    <p>
+                        Year (yyyy-mm-dd):
+                        <input data-validation="date" data-validation-format="yyyy-mm-dd">
+                    </p>
                     </form>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-4">
+                    
+                </div>
             </div>
         </div>
         <?php
@@ -36,16 +42,19 @@
         ?>
     </body>
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
     <script>
          document ready se ejecuta cuando toda la página se ha cargado correctamente
         $(document).ready(function (){
-            $('#cajaNombre').hide();
+//            $('#cajaNombre').hide();
         });
-//        
-//        $('#boton1').click(function(){
-//            console.log("aqui si que llega");
-//            $('#cajaNombre').show(200);
-//        });
+        $.validate({
+            lang:'es'
+        });
+        
+        $('#boton1').click(function(){
+            console.log("aqui si que llega");
+            $('#cajaNombre').show(200);
+        });
     </script>
 </html>
