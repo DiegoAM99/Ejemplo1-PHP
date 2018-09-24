@@ -6,14 +6,25 @@
         <title>PRUEBA DE PHP CON BOOTSTRAP</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
+    <body style="background-color:  #666">
         <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <button id= "boton1" class="btn btn-primary">Primary</button>
+                <div class="col-12">
+                    <h2 class="text-center" style="color: white;">EJEMPLO INICIO SESIÓN EN PHP</h2>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-4">
-                    <input id="cajaNombre" name="usuario_nombre" type="text" placeholder="Usuario">
+                   
+                </div>
+                <br><br/>
+                <div class="col-4">
+                    <input id="cajaNombre" class="form-control"  type="text" placeholder="Usuario">
+                    <br/>
+                    <input id="cajaPassword" class="form-control" type="text" placeholder="Contraseña">
+                    <br/>
+                    <button id= "boton1" class="btn btn-primary btn-block">Primary</button>
+                    <br/><br/>
                 </div>
                 <div class="col-4"></div>
             </div>
