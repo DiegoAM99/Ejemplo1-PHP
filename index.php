@@ -28,7 +28,7 @@
                     <br/><br/>
                     <p>
                         Year (yyyy-mm-dd):
-                        <input data-validation="date" data-validation-format="yyyy-mm-dd">
+                        <input  class="form-control" data-validation="date" data-validation-format="yyyy-mm-dd">
                     </p>
                     </form>
                 </div>
